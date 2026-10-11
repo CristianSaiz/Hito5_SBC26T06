@@ -1,0 +1,101 @@
+# ==============================================================================
+# SISTEMA OPERATIVO Y METADATOS
+# ==============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Directory metadata
+.directory
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ==============================================================================
+# ARCHIVOS TEMPORALES Y LOGS
+# ==============================================================================
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# ==============================================================================
+# ENTORNO DE DESARROLLO (IDEs & CONTAINERS)
+# ==============================================================================
+# Visual Studio Code & Dev Containers
+.vscode/
+.devcontainer/
+
+# JetBrains / CLion
+.idea/
+
+# Visual Studio / Otros
+*.user
+*.workspace
+*.suo
+*.sln.docstates
+
+# Language Servers & Caches
+.clangd/
+.ccls-cache/
+compile_commands.json
+
+# ==============================================================================
+# ARTEFACTOS DE COMPILACIÓN (BUILD)
+# ==============================================================================
+# Carpetas de compilación en raíz y cualquier subdirectorio
+build/
+*/build/
+**/build/
+
+# Objetos y ejecutables binarios
+*.o
+*.a
+*.out
+*.exe
+*.bin
+*.elf
+*.map
+flasher_args.json
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+
+# ==============================================================================
+# ESP-IDF
+# ==============================================================================
+sdkconfig.old
+sdkconfig.ci
+/components/.idf/
+**/components/.idf/
+managed_components/
+.espressif/
+
+# ==============================================================================
+# PYTHON Y ENTORNOS VIRTUALES
+# ==============================================================================
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+dist/
+venv/
+.venv/
+env/
+
+# ==============================================================================
+# PAQUETES COMPRIMIDOS (Evitar subir entregas locales a Git)
+# ==============================================================================
+*.zip
+*.tar.gz
+*.7z
